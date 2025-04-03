@@ -1,4 +1,4 @@
-﻿namespace EditoHtml
+﻿namespace EditorHtml
 {
     class Program
     {
