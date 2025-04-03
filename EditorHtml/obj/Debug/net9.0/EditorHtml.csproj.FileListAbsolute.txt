@@ -1,0 +1,15 @@
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\bin\Debug\net9.0\EditorHtml.exe
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\bin\Debug\net9.0\EditorHtml.deps.json
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\bin\Debug\net9.0\EditorHtml.runtimeconfig.json
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\bin\Debug\net9.0\EditorHtml.dll
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\bin\Debug\net9.0\EditorHtml.pdb
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\EditorHtml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\EditorHtml.AssemblyInfoInputs.cache
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\EditorHtml.AssemblyInfo.cs
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\EditorHtml.csproj.CoreCompileInputs.cache
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\EditorHtml.sourcelink.json
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\EditorHtml.dll
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\refint\EditorHtml.dll
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\EditorHtml.pdb
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\EditorHtml.genruntimeconfig.cache
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Fundamentos do C#\EditorHtml\obj\Debug\net9.0\ref\EditorHtml.dll
