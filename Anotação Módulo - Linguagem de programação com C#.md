@@ -33,3 +33,13 @@ Cada tipo possui uma capacidade e caso exceda o programa gera um erro, esta capa
 **void -** siginifica que não terá retorno dentro daquela método.
 
 **Conversão Implícita -** As implícitas são conversões que podem ser executadas apenas com passagem de dados, possuem tipos compatívies, a conversão so ocoirre se o tipo de dado for compativel.
+
+**Boolean -** armazena apenas true ou false e é definido pela palavra reservada bool
+
+**Char -** armazena apenas um caracter no formato unicode é definido pela palavra reservada **char**, a atribuição é dada por aspas simples.
+
+**String -** Armazena uma cadeia de caracteres, definido pela palavra reservada **string**. A atribuição é feita por aspas duplas.
+
+**Var -** Será do tipo do primeiro valor atribuído a ela, se o primeiro valor for uma string a variavel é do tipo string, se receber um int e é do tipo int e assim por diante. Apartir a atribuição inicial a variavel será eternamente daquele tipo.
+
+**Object -** Tipo genérico que recebe qualquer valor ou objeto, funciona como se fosse o Var porém ela podera receber valores de diferentes tipos do iniciado. Não possui Intelisense por ser um tipo desconhecido. **EVITE USAR ESTE TIPO, USE SOMENTE EM ULTIMO CASO QUANDO NÃO SOUBER O VALOR QUE IRÁ RECEBER.**
