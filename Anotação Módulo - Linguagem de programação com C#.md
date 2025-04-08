@@ -24,15 +24,11 @@ Cada tipo possui uma capacidade e caso exceda o programa gera um erro, esta capa
 
 **Byte -** É utilizado para representar um byte de fato, caso precisamos da cadeia de bytres de um arquivo por exemplo iremos ter um rray de byte. Temos tbnm o sbyte que permite valores negativos.
 
-**Números inteiros -** São os numeros sem pontuação podem ser definidos pelos tipos *short/ushort int/uint, long/ulong.* Os tipos que começam com *U* significam que são *UNSIGNED* e não poderam receber valores negativos.
+**Números inteiros (Short, Int, Long) -** São os numeros sem pontuação podem ser definidos pelos tipos *short/ushort int/uint, long/ulong.* Os tipos que começam com *U* significam que são *UNSIGNED* e não poderam receber valores negativos.
 
-**Números Reais -** São os números que tem ponto flutuante, podem ser os tipos *float (Notação F), double, decimal  (Notação M),* possuem assimilação negativa e positiva por padrão, dispensando o uso do signed/unsioigned em seus tipos.
-
-**Object -** Ela funciona como se fosse uma variavel no javascript será uma variavel que irá receber qualquer tipo de dado, diferente do var que irá receber somente dados de acordo com o inserido na inicialização da variável.
+**Números Reais (Float, Double, Decimal) -** São os números que tem ponto flutuante, podem ser os tipos *float (Notação F), double, decimal  (Notação M),* possuem assimilação negativa e positiva por padrão, dispensando o uso do signed/unsioigned em seus tipos.
 
 **void -** siginifica que não terá retorno dentro daquela método.
-
-**Conversão Implícita -** As implícitas são conversões que podem ser executadas apenas com passagem de dados, possuem tipos compatívies, a conversão so ocoirre se o tipo de dado for compativel.
 
 **Boolean -** armazena apenas true ou false e é definido pela palavra reservada bool
 
@@ -43,3 +39,36 @@ Cada tipo possui uma capacidade e caso exceda o programa gera um erro, esta capa
 **Var -** Será do tipo do primeiro valor atribuído a ela, se o primeiro valor for uma string a variavel é do tipo string, se receber um int e é do tipo int e assim por diante. Apartir a atribuição inicial a variavel será eternamente daquele tipo.
 
 **Object -** Tipo genérico que recebe qualquer valor ou objeto, funciona como se fosse o Var porém ela podera receber valores de diferentes tipos do iniciado. Não possui Intelisense por ser um tipo desconhecido. **EVITE USAR ESTE TIPO, USE SOMENTE EM ULTIMO CASO QUANDO NÃO SOUBER O VALOR QUE IRÁ RECEBER.**
+
+**Nullable Types(?) -** Significa vazio ou nada, diferente de zero ou uma string vazia, todo tipo primitivo ou complexo pode receber o valor null, o tipo deve ser marcado como Nullable type. Podemos atribuir *null* a um objeto desde que o mesmo seja marcado com nullable (usando o **?** na frente), se uma chamada com um valor nulo for feita um erro será apresentado.
+
+**Alias -** Alias é um apelido que todo tipo no .NET tem, por exemplo *System.String* tem o alias *string,* como o C# é Case Sensitive tanto faz escrevermos um ou outro porém o recomendo é sempre usar o alias, com alias escrevemos menos.
+
+**Valores Padrões -** Todo tipo built-in(Tipo primitivo) já possui um valor padrão, se nenhum valor for informado o valor padrão sera utilizado.
+
+**int** ⇒ 0 - **float** ⇒ 0 - **decimal** ⇒ 0 - **bool** ⇒ false - **char** = ‘\0’ ⇒ **string** = “”
+
+**Conversão Implícita -** As implícitas são conversões que podem ser executadas apenas com passagem de dados, possuem tipos compatívies, a conversão so ocorre se o tipo de dado for compativel. A conversão no caso abaixo ocorreu pois um numero real pode receber um numero inteiro porém o contrario iria dar erro.
+
+**Conversão Explicita -** Ocorre quando os tipos não são compativeis é dada pelo uso do tipo entre parenteses antes da atribuição.
+
+**Parse -** Usado para converter um caractere ou string para um tipo qualquer, caso haja alguma incompatibilidade gera um erro.
+
+**Convert -** Similar ao parse porém permite converter vários tipos de valor não apenas string, devemos informar o tipo na chamada da conversão.
+
+**Operadores Aritméticos**
+Soma ⇒ +
+Subtração ⇒ -
+Multiplicação ⇒ *
+Divisão ⇒ /
+Multiplicação e divisão são executadas primeiro, caso queira executar em outra ordem deve colocar entre parenteses.
+
+**Operadores de Atibuição -** Utilizamos igual para atribuir um valor, porém podemos utilizar igual junto a um operador aritemético.
+
+**Operadores de comparação -** Podemos comparar qualquer tipo de dado, a comparação sempre retorna *Verdadeiro* ou *Falso*.
+Igual ==
+Diferente ! =
+Maior que >
+Menor que <
+Maior ou igual a > =
+Menor ou igual que  < =
