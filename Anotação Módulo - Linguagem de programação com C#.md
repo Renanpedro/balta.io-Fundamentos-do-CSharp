@@ -66,9 +66,30 @@ Multiplicação e divisão são executadas primeiro, caso queira executar em out
 **Operadores de Atibuição -** Utilizamos igual para atribuir um valor, porém podemos utilizar igual junto a um operador aritemético.
 
 **Operadores de comparação -** Podemos comparar qualquer tipo de dado, a comparação sempre retorna *Verdadeiro* ou *Falso*.
-Igual ==
-Diferente ! =
-Maior que >
-Menor que <
-Maior ou igual a > =
-Menor ou igual que  < =
+- Igual ==
+- Diferente ! =
+- Maior que >
+- Menor que <
+- Maior ou igual a > =
+- Menor ou igual que  < =
+
+**Operadores Logicos** - São usados para operações condicionais, retorna sempre **Verdadeiro** ou **Falso**
+- **&& (E)** - Deve atender todas as condições
+- **|| (Ou) -** Se atende uma condição ja retorna verdadeiro
+- **! (Negação) -** Nega o resultado da condição se der true vira false se der false vira true.
+
+**Operador Condicional**
+- **If** (Se) - “Caso alguma condição seja atendida”, caso não seja atendida ela pode ser complementada com **Else** e/ou **Else IF**. Não a limites de Else If porém por questão de perfomance não é bom utilizar várias.
+- **Switch -** Utilizado quando temos muitas condições, executado em cascata devemos parar manualmente a execução com o comando **break**, Caso nenhum condição seja atendida ira cair na opção **Default**.
+
+**Laços de repetição -** Irá repetir o código de acordo com uma determinada condição.
+- **For -** Para cada item em um valor, executada uma determinada ação várias vezes, definido pela palavra for, exige 3 parametros (**Contador, Condição, Incremento**).
+- **Sintaxe ⇒** for **(var int = 0; int ≤ 10;  i++)**
+
+- **While -** Executa uma determinada ação **ENQUANTO** uma condição for verdadeira, exige apenas uma condição, checa a condição antes de executar.
+- **Sintaxe ⇒** while(Valor ≤ 5) {}
+
+- **do/while -** “Faça uma ação enquanto…” Executa o bloco que esta no **do** e só checa a condição depois, caso o **while** não atenda a condição volta para exeucar o **do** até o **while** atender a condição especificada.
+- **Sintaxe ⇒** Do{} While(Condição) {}
+
+**Métodos ou Funções -** Podemos segmentar nosso programa em funções, também conhecidos como metodos, **possui um retorno**(Nem sempre), **um nome** e **parametro**, esta composição é chamada de assinatura, começam sempre com maiuscula. O **main** é um exemplo de método. **Metodo == Função** são formas diferentes para se reverir a mesma coisa.
