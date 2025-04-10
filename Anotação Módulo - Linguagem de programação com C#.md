@@ -92,4 +92,17 @@ Multiplicação e divisão são executadas primeiro, caso queira executar em out
 - **do/while -** “Faça uma ação enquanto…” Executa o bloco que esta no **do** e só checa a condição depois, caso o **while** não atenda a condição volta para exeucar o **do** até o **while** atender a condição especificada.
 - **Sintaxe ⇒** Do{} While(Condição) {}
 
-**Métodos ou Funções -** Podemos segmentar nosso programa em funções, também conhecidos como metodos, **possui um retorno**(Nem sempre), **um nome** e **parametro**, esta composição é chamada de assinatura, começam sempre com maiuscula. O **main** é um exemplo de método. **Metodo == Função** são formas diferentes para se reverir a mesma coisa.
+**Métodos ou Funções -** Podemos segmentar nosso programa em funções, também conhecidos como metodos, **possui um retorno**(Nem sempre), **um nome** e **parametro**, esta composição é chamada de assinatura, começam sempre com maiuscula. O **main** é um exemplo de método. **Metodo == Função** são formas diferentes para se reverir a mesma coisa. O parametro dentro do metodo pode ser opcional, para isso basta colocar a propriedade já com o valor, essas propriedades opcionais precisam vir ao final de todos os parametros.
+
+**Tipos de referencia e Tipos de valor**
+**Heap e Stack -** A memoria é dividida em duas partes Heap e Stack
+**Heap -** Armazena os dados
+**Stack -** Armazena as referências(Endereço onde fica a informação) para os dados.
+
+- No .NET qualquer tipo é tratado como Tipo de Referência(Reference Type) ou Tipo de Valor(Value Type), Tipos de valor armazenam dados, são armazenados em um local da memória chamada **Stack**
+
+**Tipo de valor(Value Type)**
+- Quando armazenam um valor, a memória é alocada, este espaço armazena o dado criado, nossa variavel acessa este dado diretamente, se asimilarmos uma variavel do tipo de valor para outra o valor será COPIADO ambas serão independentes. **Built-in(Tipos Primitivos), Structs,, Enums são values types**, Garbage Collector(Fica olhando a memória Heap e caso algo não esteja sendo usado ele apaga) **O Garbage collector** **não acessa o Stack.**
+
+**Tipos de referência(Reference Types)** 
+- Armazenam o endereço do objeto que contém os dados, não armazena os dados em si, são armazenados em um local da memória chamado de Heap, Ao assimilar uma variavel ele criará uma **referencia** aponta para a mesma informação e **não são independentes.** Quando não mais utilizados são marcados para exclusão o Garbage Collector passa removendo todos eles. **Classes, Objects, Arrays são do tipo de referência.**
