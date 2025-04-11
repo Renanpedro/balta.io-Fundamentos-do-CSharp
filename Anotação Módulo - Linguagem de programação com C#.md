@@ -106,3 +106,7 @@ Multiplicação e divisão são executadas primeiro, caso queira executar em out
 
 **Tipos de referência(Reference Types)** 
 - Armazenam o endereço do objeto que contém os dados, não armazena os dados em si, são armazenados em um local da memória chamado de Heap, Ao assimilar uma variavel ele criará uma **referencia** aponta para a mesma informação e **não são independentes.** Quando não mais utilizados são marcados para exclusão o Garbage Collector passa removendo todos eles. **Classes, Objects, Arrays são do tipo de referência.**
+
+**Structs -** Tipos de dado estruturado, Apenas a estrutura o esqueleto, tipo de valor, armazenam apenas outros tipos de dados, definido pela palavra **struct**, composto de propriedades e métodos, nome sempre com maiusculo (O mesmo para propriedades e métodos), criado a partir da palavra **new (Nesse momento sim temos os valores).**
+
+**Enum (Enumeradores) -** Usado para fornecer uma melhor visualização do codigo, substituem o uso de inteiros, Usados em listas curtas, usados em dados fixos (Hard Coded), Sempre em maiúsculo (Começar coma letra E).
