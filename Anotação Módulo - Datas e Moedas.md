@@ -1,3 +1,4 @@
+# Datas
 **DateTime -** Tipo especifico do c# para datas
 **var data = new DateTime(); -** a variavel data vai ter o valor default do tipo datetime 1/1/0001
 **var data = new DateTime.Now -** Pega a data e hora atual
@@ -32,3 +33,12 @@
 **TimeZone**
 - var data = Datetime.UtcNow; - Irá pegar a data sem contar o timezone. seria o horário global.
 - data.ToLocalTime() - Irá aplicar o timezone com base na localidade do servidor.
+
+# Moedas
+**decimal valor = 10.25m;** Decimal para ter mais precisão nas casas decimais
+**valor.ToString(”C”, CultureInfo.CreateSpecificCulture(”pt-BR”));** - Alterando o valor para o padrão brasileiro. **C** padrão moeda **R$** dolar **$** depende do culture infomado, **G** coloca o separador de milhar, **F** coloca uma a casa a mais nos centavos, **N** formatada para numero sem o **R$**, **P** formata para porcentagem.
+
+**Math-** Metodo de operações matematicas
+- **Math.Round() -** Arredonda o valor para a media
+- **Math.Ceiling() -** Arredonda o valor pra cima
+- **Math.Floor() -** Arredonda o valor pra baixo
