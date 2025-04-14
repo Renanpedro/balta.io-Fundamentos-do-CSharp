@@ -42,3 +42,9 @@
 - **Math.Round() -** Arredonda o valor para a media
 - **Math.Ceiling() -** Arredonda o valor pra cima
 - **Math.Floor() -** Arredonda o valor pra baixo
+
+# Arrays (Objetos de Referência)
+**Array(vetor) -** Lista de uma posição, posição inicial é o 0.
+- var meuArray = new int[5];
+
+**Percorrendo um array -** Para percorrer um array posso utilizar algum laço de repetição como **For**, **Foreach** e afins.
