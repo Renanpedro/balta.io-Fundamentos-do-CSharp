@@ -48,3 +48,8 @@
 - var meuArray = new int[5];
 
 **Percorrendo um array -** Para percorrer um array posso utilizar algum laço de repetição como **For**, **Foreach** e afins.
+
+# Exceptions
+**Exceptions -** Erros que não deveriam acontecer na aplicação, algo que não estava previsto ou mapeado.
+**Try/Catch -** **Try** executa o que esta dentro dele e caso gere alguma execeção irá cair no **catch** para pegarmos o erro.
+**Finally -** Após finalizar o try/catch sempre irá cair no finally caso eu declare ele. Posso utilizar isso para informar que um processo foi finalizado. Caso eu esteja lendo um arquivo e de uma exceção posso usar o finally para fechar o arquivo.
